@@ -17,6 +17,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": "^8.1",
+        "phyple/essential": "dev-development",
         "laravel/framework": "^10"
     }
 }

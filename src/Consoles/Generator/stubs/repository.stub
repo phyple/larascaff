@@ -1,0 +1,32 @@
+<?php
+
+namespace {{ namespace }};
+
+use Phyple\Larascaff\Databases\Repository;
+
+class {{ class }} extends Repository
+{
+    /**
+     * Set default select value in repository
+     *
+     * Note: Insert your default table select here
+     *
+     * @return string[]
+     */
+    protected function defaultSelect(): array
+    {
+        return ['*'];
+    }
+
+    /**
+     * Add default join clause into query builder
+     *
+     * Note: Insert your default join method here using $builder->join() method
+     * @param Builder $builder
+     * @return $this
+     */
+    public function addDefaultJoinClause(Builder $builder): self
+    {
+        return $this;
+    }
+}
