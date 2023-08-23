@@ -1,0 +1,18 @@
+<?php
+
+namespace {{ namespace }};
+
+use Phyple\Larascaff\Http\Service;
+
+class {{ class }} extends Service
+{
+    /**
+     * Handle incoming request
+     *
+     * @return mixed
+     */
+    public function handle(): mixed
+    {
+
+    }
+}
